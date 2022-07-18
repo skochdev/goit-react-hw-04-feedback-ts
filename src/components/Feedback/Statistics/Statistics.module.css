@@ -1,0 +1,30 @@
+.Statistics {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--default-vertical-margin);
+}
+
+.StatisticsItem {
+  padding: 10px 30px;
+  background-color: rgba(246, 245, 245, 0.76);
+}
+
+.StatisticsItem:nth-child(1) {
+  background-color: lightgreen;
+}
+
+.StatisticsItem:nth-child(2) {
+  background-color: #fcfc4f;
+}
+
+.StatisticsItem:nth-child(3) {
+  background-color: #fc774f;
+}
+
+.StatisticsItem + .StatisticsItem {
+  margin-left: var(--default-horizontal-padding);
+}
+
+.extraStats {
+  text-align: start;
+}

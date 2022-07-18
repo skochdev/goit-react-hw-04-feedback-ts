@@ -1,0 +1,11 @@
+.FeedbackOptions {
+  display: flex;
+  justify-content: center;
+}
+
+.FeedbackOptionsItem {
+}
+
+.FeedbackOptionsItem + .FeedbackOptionsItem {
+  margin-left: var(--default-vertical-margin);
+}
